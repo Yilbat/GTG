@@ -1,0 +1,25 @@
+@use "../customProducts" as *;
+
+.unique_features {
+  padding: 2rem;
+  background-color: #231546;
+
+  h1,
+  h2 {
+    font-size: x-large;
+    margin: 2rem;
+  }
+  ul {
+    margin-left: 2rem;
+  }
+
+  li {
+    font-size: medium;
+    padding: 0.5rem;
+    &:hover {
+      color: white;
+      cursor: default;
+    }
+    justify-content: right;
+  }
+}
