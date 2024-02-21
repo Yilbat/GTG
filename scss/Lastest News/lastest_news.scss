@@ -1,0 +1,10 @@
+// import custom
+
+@use "./custom_lastest_news";
+
+// import sections
+
+@use "../sections/nav";
+@use "./sections/lastest_news";
+@use "./sections/product_container";
+@use "./sections/footer";
