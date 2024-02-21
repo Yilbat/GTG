@@ -23764,14 +23764,11 @@ li:hover {
 
 .product_container {
   display: grid;
+  box-sizing: content-box;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
   grid-gap: 1%;
   padding: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 100px;
-  grid-auto-flow: dense;
-  max-height: none;
+  overflow-y: scroll;
 }
 .product_container img {
   width: 100%;
